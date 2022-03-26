@@ -42,7 +42,7 @@
 
 // XY2 Thanks to Emmanuel Hayez!
 // #define XY2_V6_255_NO_TITAN_TMC 1
-// #define XY2_V6_255_TITAN_TMC 1
+#define XY2_V6_255_TITAN_TMC 1
 // #define XY2_V6_255_BMG_TMC 1
 // #define XY2_V6_255M_BMG_TMC 1
 
@@ -59,7 +59,7 @@
 
 // #define TFT_LVGL_UI
 // #define TFT_CLASSIC_UI
-// #define TFT_COLOR_UI
+#define TFT_COLOR_UI
 
 #if V6_330_TITAN_TMC
   #define MOTHERBOARD BOARD_CHITU3D_V6
