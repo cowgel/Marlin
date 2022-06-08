@@ -412,9 +412,7 @@
 //#define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-#ifdef TFT_CLASSIC_UI
-#define CUSTOM_STATUS_SCREEN_IMAGE
-#endif
+//#define CUSTOM_STATUS_SCREEN_IMAGE
 
 // @section machine
 
