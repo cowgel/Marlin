@@ -1925,7 +1925,8 @@
  */
 #ifdef XY2_MODELS
 //#define NOZZLE_TO_PROBE_OFFSET { -50, -10, 0 }
-#define NOZZLE_TO_PROBE_OFFSET { -40, -8.75, -1 }
+//#define NOZZLE_TO_PROBE_OFFSET { -40, -8.75, -1 }
+#define NOZZLE_TO_PROBE_OFFSET { -39, -7, -5 }
 #else
 #define NOZZLE_TO_PROBE_OFFSET { -35, -0, 0 }
 #endif
