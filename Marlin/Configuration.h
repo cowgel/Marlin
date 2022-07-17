@@ -1900,8 +1900,9 @@
  */
 #ifdef XY2_MODELS
 //#define NOZZLE_TO_PROBE_OFFSET { -50, -10, 0 }
-#define NOZZLE_TO_PROBE_OFFSET { -40, -8.75, -1 }
+//#define NOZZLE_TO_PROBE_OFFSET { -40, -8.75, -1 }
 //#define NOZZLE_TO_PROBE_OFFSET { -39, -7, -5 }
+#define NOZZLE_TO_PROBE_OFFSET { -40, -9, 0 }
 #else
 #define NOZZLE_TO_PROBE_OFFSET { -35, -0, 0 }
 #endif
@@ -2320,8 +2321,8 @@
 #if WITHOUT_ABL
   #define MESH_BED_LEVELING
 #else
-  //#define AUTO_BED_LEVELING_BILINEAR
-  #define AUTO_BED_LEVELING_UBL
+  #define AUTO_BED_LEVELING_BILINEAR
+  //#define AUTO_BED_LEVELING_UBL
 #endif
 //#define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
@@ -2331,8 +2332,8 @@
  * these options to restore the prior leveling state or to always enable
  * leveling immediately after G28.
  */
-#define RESTORE_LEVELING_AFTER_G28
-//#define ENABLE_LEVELING_AFTER_G28
+//#define RESTORE_LEVELING_AFTER_G28
+#define ENABLE_LEVELING_AFTER_G28
 
 /**
  * Auto-leveling needs preheating
