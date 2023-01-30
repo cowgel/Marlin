@@ -1,4 +1,9 @@
-## This repository is [Marlin Release 2.1.2.1](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.1) with additional configurations for [TRONXY](https://www.tronxy3d.com/) 3D Printers
+## This repository is [Marlin Release 2.1.2.1](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.1) customized for my [TRONXY](https://www.tronxy3d.com/) XY-2 PRO TITAN with Titan Extruder
+
+* Changed to COLOR_UI
+* Changed ABS Preheat to PETG
+* Added on abort Y axis forward
+* Updated NOZZLE_TO_PROBE_OFFSET
 
 This repository started as an update to [rhapsodyv](https://github.com/rhapsodyv)/[Marlin](https://github.com/rhapsodyv/Marlin), which had not been recent updated. The repository was migrated from Marlin upstream/bugfix-2.0.x to upstream/2.0.x and later upstream/2.1.x
 
