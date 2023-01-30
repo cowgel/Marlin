@@ -1,5 +1,17 @@
-<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
-# This repository is just a copy of the official Marlin, with Tronxy X5SA (and variants) pre-configured.
+## This repository is [Marlin Release 2.1.2.5](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.5) with additional configurations for [TRONXY](https://www.tronxy3d.com/) 3D Printers
+
+This repository started as an update to [rhapsodyv](https://github.com/rhapsodyv)/[Marlin](https://github.com/rhapsodyv/Marlin), which had not been recent updated. The repository was migrated from Marlin upstream/bugfix-2.0.x to upstream/2.0.x and later upstream/2.1.x
+
+Thanks to [rhapsodyv](https://github.com/rhapsodyv) for all the effort in the original repository.
+
+For help with building and flashing, particularly on the TRONXY XY-2 PRO, consult these links
+* [Jeff's 3d Corner](https://www.youtube.com/@jeffs3dcorner)
+* [EddyBeaupre/Tronxy-XY2-Pro](https://github.com/EddyBeaupre/Tronxy-XY2-Pro)
+
+---
+#### *rhapsodyv README.md*
+
+## This repository is just a copy of the official Marlin, with Tronxy X5SA (and variants) pre-configured.
 
 _Right now, this repo don't work with marlin auto build_
 
@@ -22,8 +34,10 @@ _Right now, this repo don't work with marlin auto build_
 //to use the new UI
 #define TFT_LVGL_UI
 ```
+---
+#### *Marlin README.md*
 
-# Marlin 3D Printer Firmware
+<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
 
